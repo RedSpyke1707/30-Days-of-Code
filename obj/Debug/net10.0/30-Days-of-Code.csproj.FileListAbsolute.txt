@@ -1,0 +1,15 @@
+/workspaces/30-Days-of-Code/bin/Debug/net10.0/30-Days-of-Code
+/workspaces/30-Days-of-Code/bin/Debug/net10.0/30-Days-of-Code.deps.json
+/workspaces/30-Days-of-Code/bin/Debug/net10.0/30-Days-of-Code.runtimeconfig.json
+/workspaces/30-Days-of-Code/bin/Debug/net10.0/30-Days-of-Code.dll
+/workspaces/30-Days-of-Code/bin/Debug/net10.0/30-Days-of-Code.pdb
+/workspaces/30-Days-of-Code/obj/Debug/net10.0/30-Days-of-Code.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/30-Days-of-Code/obj/Debug/net10.0/30-Days-of-Code.AssemblyInfoInputs.cache
+/workspaces/30-Days-of-Code/obj/Debug/net10.0/30-Days-of-Code.AssemblyInfo.cs
+/workspaces/30-Days-of-Code/obj/Debug/net10.0/30-Days-of-Code.csproj.CoreCompileInputs.cache
+/workspaces/30-Days-of-Code/obj/Debug/net10.0/30-Days-of-Code.sourcelink.json
+/workspaces/30-Days-of-Code/obj/Debug/net10.0/30-Days-of-Code.dll
+/workspaces/30-Days-of-Code/obj/Debug/net10.0/refint/30-Days-of-Code.dll
+/workspaces/30-Days-of-Code/obj/Debug/net10.0/30-Days-of-Code.pdb
+/workspaces/30-Days-of-Code/obj/Debug/net10.0/30-Days-of-Code.genruntimeconfig.cache
+/workspaces/30-Days-of-Code/obj/Debug/net10.0/ref/30-Days-of-Code.dll
