@@ -1,3 +1,4 @@
+process.stdin.resume();
 process.stdin.setEncoding('ascii');
 
 var input_stdin = "";
@@ -22,18 +23,17 @@ function main() {
     var i = 4
     var d = 4.0
     var s = "HackerRank "
-    
     // Declare second integer, double, and String variables.
-     
+
     // Read and save an integer, double, and String to your variables.
-    var input_int = parseInt(readLine());
-     var input_double = parseFloat(readLine());
-     var input_string = readLine();
+     let input_int = parseInt(readLine());
+     let input_double = parseFloat(readLine());
+     let input_string = readLine();
     // Print the sum of both integer variables on a new line.
      console.log(i + input_int);
     // Print the sum of the double variables on a new line.
      console.log((d + input_double).toFixed(1));
     // Concatenate and print the String variables on a new line
     // The 's' variable above should be printed first.
-     console.log(s + input_string);
+    console.log(s + input_string);
 }
