@@ -17,7 +17,9 @@ class Solution {
         // Read and save an integer, double, and String to your variables.
          inputInt = Convert.ToInt32(Console.ReadLine());
          inputDouble = Convert.ToDouble(Console.ReadLine());
+#pragma warning disable CS8600 // Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL
          inputString = Console.ReadLine();
+#pragma warning restore CS8600 // Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL
         
         // Print the sum of both integer variables on a new line.
          Console.WriteLine(i + inputInt);
