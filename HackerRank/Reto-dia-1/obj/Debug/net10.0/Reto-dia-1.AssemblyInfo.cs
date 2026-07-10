@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Reto-dia-1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1b15018c9c9d6c7972452d16537c19e7b97b632")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5146939bf7174b1b232dad99cef2734d7dc0e9c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Reto-dia-1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Reto-dia-1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
