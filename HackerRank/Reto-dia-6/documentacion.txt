@@ -1,0 +1,51 @@
+Objetivo
+
+Hoy ampliaremos nuestros conocimientos sobre cadenas de caracteres, combinándolos con lo que ya hemos aprendido sobre bucles. Consulta la pestaña Tutorial para acceder a materiales de aprendizaje y un vídeo instructivo.
+
+Tarea
+Dada una cadena,, de longitudque está indexado desdea, imprime sus caracteres de índice par e impar comoCadenas separadas por espacios en una sola línea (consulte el ejemplo a continuación para obtener más detalles).
+
+Nota: se considera un índice par .
+
+Ejemplo
+
+
+Imprimirabc def
+
+Formato de entrada
+
+La primera línea contiene un número entero,(el número de casos de prueba).
+Cada líneadelLas líneas siguientes contienen una cadena,.
+
+Restricciones
+
+Formato de salida
+
+Para cada cadena(dónde), imprimircaracteres de índice par , seguidos de un espacio, seguidos decaracteres de índice impar .
+
+Entrada de ejemplo
+
+2
+Hacker
+Rank
+Salida de ejemplo
+
+Hce akr
+Rn ak
+Explicación
+
+Caso de prueba 0 :
+
+
+
+
+
+
+Los índices pares son,, yy los índices impares son,, y. Luego imprimimos una sola línea decadenas separadas por espacios; la primera cadena contiene los caracteres ordenados deíndices pares (), y la segunda cadena contiene los caracteres ordenados deíndices extraños ().
+
+Caso de prueba 1 :
+
+
+
+
+Los índices pares sonyy los índices impares sony. Luego imprimimos una sola línea decadenas separadas por espacios; la primera cadena contiene los caracteres ordenados deíndices pares (), y la segunda cadena contiene los caracteres ordenados deíndices extraños ().
