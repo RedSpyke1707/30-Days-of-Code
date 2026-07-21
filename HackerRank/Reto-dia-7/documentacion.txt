@@ -1,0 +1,33 @@
+Objetivo:
+
+Hoy aprenderemos sobre la estructura de datos Array . Consulta la pestaña Tutorial para acceder a materiales de aprendizaje y un video instructivo.
+
+Tarea
+Dado un arreglo,, deenteros, imprimirLos elementos de en orden inverso como una sola línea de números separados por espacios.
+
+Ejemplo
+
+
+Imprimir 4 3 2 1. Cada número entero está separado por un espacio.
+
+Formato de entrada
+
+La primera línea contiene un número entero,(el tamaño de nuestra matriz).
+La segunda línea contieneenteros separados por espacios que describen una matrizelementos.
+
+Restricciones
+
+Restricciones
+
+, dóndees elnúmero entero en el arreglo.
+Formato de salida
+
+Imprimir los elementos del arrayen orden inverso como una sola línea de números separados por espacios.
+
+Entrada de ejemplo
+
+4
+1 4 3 2
+Salida de ejemplo
+
+2 3 4 1

@@ -8,7 +8,7 @@ import sys
 
 if __name__ == '__main__':
   
-    n = int(input().strip())
+    n = int(input("Por favor digite un numero entero").strip())
     
     
     for i in range(1, 11):
