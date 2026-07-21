@@ -1,0 +1,50 @@
+Objetivo:
+
+Hoy discutiremos el concepto de alcance (scope). Consulta la pestaña de Tutorial para material de aprendizaje y un video instructivo.
+
+La diferencia absoluta entre dos enteros, a y b, se escribe como |a - b|. La diferencia absoluta máxima entre dos enteros en un conjunto de enteros positivos, S, es la mayor diferencia absoluta entre cualesquiera dos enteros en S.
+
+La clase Difference está iniciada para ti en el editor. Tiene un arreglo privado de enteros (elements) para almacenar enteros no negativos, y un entero público (maximumDifference) para almacenar la diferencia absoluta máxima.
+
+Tarea
+
+Completa la clase Difference escribiendo lo siguiente:
+
+Un constructor de la clase que reciba un arreglo de enteros como parámetro y lo guarde en la variable de instancia elements.
+Un método computeDifference que encuentre la diferencia absoluta máxima entre cualesquiera números en elements, y la guarde en la variable de instancia maximumDifference.
+
+Formato de entrada
+
+No eres responsable de leer ninguna entrada desde stdin. La clase Solution (bloqueada) en el editor lee las líneas de entrada. La primera línea contiene N, el tamaño del arreglo elements. La segunda línea tiene N enteros separados por espacios que describen el arreglo.
+
+Restricciones
+
+2 ≤ N ≤ 10
+0 ≤ elements[i] ≤ 1000, donde 0 ≤ i < N
+
+Formato de salida
+
+No eres responsable de imprimir ninguna salida; la clase Solution imprimirá el valor de la variable de instancia maximumDifference.
+
+Entrada de ejemplo
+
+STDIN   Function
+-----   --------
+3       __elements[] size N = 3
+1 2 5   __elements = [1, 2, 5]
+
+Salida de ejemplo
+
+4
+
+Explicación
+
+El alcance (scope) del arreglo y del entero es toda la instancia de la clase. El constructor de la clase guarda el argumento pasado al constructor como la variable de instancia elements (donde el método computeDifference puede acceder a ella).
+
+Para encontrar la diferencia máxima, computeDifference revisa cada elemento del arreglo y encuentra la diferencia máxima entre cualesquiera elementos:
+
+|1 - 2| = 1
+|1 - 5| = 4
+|2 - 5| = 3
+
+La máxima de estas diferencias es 4, así que guarda ese valor como la variable de instancia maximumDifference. El código bloqueado del editor luego imprime el valor almacenado en maximumDifference, que es 4.
