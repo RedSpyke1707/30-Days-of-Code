@@ -1,0 +1,75 @@
+Objetivo
+
+Hoy seguimos ampliando nuestro conocimiento de arreglos añadiendo otra dimensión. Consulta la pestaña de Tutorial para material de aprendizaje y un video instructivo.
+
+Contexto
+
+Dado un Arreglo 2D, arr:
+
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Definimos un "reloj de arena" (hourglass) en arr como un subconjunto de valores cuyos índices siguen este patrón en la representación gráfica de arr:
+
+a b c
+  d
+e f g
+
+Hay 16 relojes de arena en arr, y la "suma del reloj de arena" es la suma de sus valores.
+
+Tarea
+
+Calcula la suma del reloj de arena para cada reloj de arena en arr, luego imprime la suma máxima.
+
+Ejemplo
+
+En el arreglo mostrado arriba, la suma máxima del reloj de arena es 7, para el reloj de arena en la esquina superior izquierda.
+
+Formato de entrada
+
+Hay 6 líneas de entrada, donde cada línea contiene 6 enteros separados por espacios que describen el Arreglo 2D arr.
+
+Restricciones
+
+-9 ≤ arr[i][j] ≤ 9
+0 ≤ i, j ≤ 5
+
+Formato de salida
+
+Imprime la suma máxima del reloj de arena en arr.
+
+Entrada de ejemplo
+
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 2 4 4 0
+0 0 0 2 0 0
+0 0 1 2 4 0
+
+Salida de ejemplo
+
+19
+
+Explicación
+
+El reloj de arena con la suma máxima (19) es:
+
+2 4 4
+  2
+1 2 4
+Estrategia
+
+El arreglo es siempre de tamaño fijo 6x6. Un reloj de arena "cabe" cuando su punta superior izquierda (a) está en una fila entre 0 y 3 y una columna entre 0 y 3 (porque necesita 2 filas y 2 columnas más de espacio). Esto nos da 4 x 4 = 16 posibles relojes de arena, tal como dice el enunciado.
+
+Para cada posición (i, j) válida, la suma del reloj de arena es:
+
+arr[i][j]   + arr[i][j+1]   + arr[i][j+2]
+                arr[i+1][j+1]
+arr[i+2][j] + arr[i+2][j+1] + arr[i+2][j+2]
+
+Recorremos todas las posiciones posibles, calculamos cada suma, y nos quedamos con la máxima.
