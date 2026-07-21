@@ -1,0 +1,49 @@
+Objetivo:
+
+Hoy trabajaremos con números binarios. Consulta la pestaña de Tutorial para material de aprendizaje y un video instructivo.
+
+Tarea
+
+Dado un entero en base 10, n, conviértelo a binario (base 2). Luego encuentra e imprime el entero en base 10 que denota el número máximo de 1's consecutivos en la representación binaria de n. Al trabajar con diferentes bases, es común mostrar la base como subíndice.
+
+Ejemplo
+
+n = 13
+
+La representación binaria de 13 es 1101₂. En base 10, hay 2 y 1 unos consecutivos en dos grupos. Imprime el máximo, 2.
+
+Formato de entrada
+
+Un solo entero, n.
+
+Restricciones
+
+1 ≤ n ≤ 10^6
+
+Formato de salida
+
+Imprime un solo entero en base 10 que denota el número máximo de 1's consecutivos en la representación binaria de n.
+
+Entrada de ejemplo 1
+
+5
+
+Salida de ejemplo 1
+
+1
+
+Entrada de ejemplo 2
+
+13
+
+Salida de ejemplo 2
+
+2
+
+Explicación
+
+Caso de ejemplo 1:
+La representación binaria de 5 es 101₂, así que el número máximo de 1's consecutivos es 1.
+
+Caso de ejemplo 2:
+La representación binaria de 13 es 1101₂, así que el número máximo de 1's consecutivos es 2.
