@@ -1,0 +1,15 @@
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/bin/Debug/net10.0/Reto-dia-9
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/bin/Debug/net10.0/Reto-dia-9.deps.json
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/bin/Debug/net10.0/Reto-dia-9.runtimeconfig.json
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/bin/Debug/net10.0/Reto-dia-9.dll
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/bin/Debug/net10.0/Reto-dia-9.pdb
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/obj/Debug/net10.0/Reto-dia-9.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/obj/Debug/net10.0/Reto-dia-9.AssemblyInfoInputs.cache
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/obj/Debug/net10.0/Reto-dia-9.AssemblyInfo.cs
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/obj/Debug/net10.0/Reto-dia-9.csproj.CoreCompileInputs.cache
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/obj/Debug/net10.0/Reto-dia-9.sourcelink.json
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/obj/Debug/net10.0/Reto-dia-9.dll
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/obj/Debug/net10.0/refint/Reto-dia-9.dll
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/obj/Debug/net10.0/Reto-dia-9.pdb
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/obj/Debug/net10.0/Reto-dia-9.genruntimeconfig.cache
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-9/obj/Debug/net10.0/ref/Reto-dia-9.dll
