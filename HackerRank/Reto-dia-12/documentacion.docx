@@ -1,0 +1,56 @@
+Objetivo:
+
+Hoy profundizaremos en la Herencia (Inheritance). Consulta el tutorial adjunto para material de aprendizaje y un video instructivo.
+
+Tarea
+
+Se te dan dos clases, Person y Student, donde Person es la clase base y Student es la clase derivada. El código completo de Person y una declaración de Student se te proporcionan en el editor. Observa que Student hereda todas las propiedades de Person.
+
+Completa la clase Student escribiendo lo siguiente:
+
+Un constructor de la clase Student, que tiene los parámetros:
+Un string, firstName.
+Un string, lastName.
+Un entero, id.
+Un arreglo (o vector) de enteros con los puntajes de los exámenes, scores.
+Un método calculate() de tipo char que calcula el promedio de un objeto Student y devuelve el carácter de la calificación (letra) representativa de su promedio calculado, según esta tabla:
+Promedio	Calificación (letra)
+90 ≤ promedio ≤ 100	O
+80 ≤ promedio < 90	E
+70 ≤ promedio < 80	A
+55 ≤ promedio < 70	P
+40 ≤ promedio < 55	D
+promedio < 40	T
+
+Formato de entrada
+
+El código bloqueado (stub) en el editor lee la entrada y llama al constructor de la clase Student con los argumentos necesarios. También llama al método calculate, que no toma argumentos.
+
+La primera línea contiene firstName, lastName, e id, separados por un espacio. La segunda línea contiene el número de puntajes de exámenes. La tercera línea de enteros separados por espacios describe scores.
+
+Restricciones
+
+1 ≤ longitud de firstName, lastName ≤ 50
+1 ≤ id ≤ 10^6
+2 ≤ número de puntajes ≤ 10
+0 ≤ scores[i] ≤ 100
+
+Formato de salida
+
+La salida es manejada por el código bloqueado. Tu salida será correcta si tu constructor de Student y tu método calculate() están implementados correctamente.
+
+Entrada de ejemplo
+
+Heraldo Memelli 8135627
+2
+100 80
+
+Salida de ejemplo
+
+ Name: Memelli, Heraldo
+ ID: 8135627
+ Grade: O
+
+Explicación
+
+Este estudiante tenía puntajes a promediar: 100 y 80. El promedio es (100+80)/2 = 90. Un promedio de 90 corresponde a la calificación O, así que el método calculate() debe devolver el carácter 'O'.
