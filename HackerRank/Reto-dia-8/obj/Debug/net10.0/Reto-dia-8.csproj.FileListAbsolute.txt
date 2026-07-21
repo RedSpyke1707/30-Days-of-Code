@@ -1,0 +1,5 @@
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-8/obj/Debug/net10.0/Reto-dia-8.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-8/obj/Debug/net10.0/Reto-dia-8.AssemblyInfoInputs.cache
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-8/obj/Debug/net10.0/Reto-dia-8.AssemblyInfo.cs
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-8/obj/Debug/net10.0/Reto-dia-8.csproj.CoreCompileInputs.cache
+/workspaces/30-Days-of-Code/HackerRank/Reto-dia-8/obj/Debug/net10.0/Reto-dia-8.sourcelink.json
