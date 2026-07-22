@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Reto-dia-11")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Reto-dia-16")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+731c61899258be27aaf1b36e5157ea60f1483182")]
-[assembly: System.Reflection.AssemblyProductAttribute("Reto-dia-11")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Reto-dia-11")]
+[assembly: System.Reflection.AssemblyProductAttribute("Reto-dia-16")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Reto-dia-16")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

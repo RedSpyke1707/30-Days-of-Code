@@ -1,0 +1,48 @@
+Objetivo:
+
+Hoy comenzaremos con Excepciones (Exceptions), aprendiendo cómo convertir (parsear) un entero desde un string y cómo imprimir un mensaje de error personalizado. Consulta la pestaña de Tutorial para material de aprendizaje y un video instructivo.
+
+Tarea
+
+Lee un string, S, e imprime su valor entero; si S no puede convertirse a un entero, imprime Bad String.
+
+Nota: Debes usar las construcciones de conversión String-a-Entero (String-to-Integer) y de manejo de excepciones (exception handling) integradas en tu lenguaje de envío. Si intentas usar bucles/sentencias condicionales, obtendrás una puntuación de 0.
+
+Formato de entrada
+
+Un solo string, S.
+
+Restricciones
+
+1 ≤ longitud de S ≤ 6, donde longitud de S es la longitud del string S.
+S está compuesto ya sea por letras minúsculas (a-z) o dígitos decimales (0-9).
+
+Formato de salida
+
+Imprime el valor entero convertido de S, o Bad String si S no puede convertirse a un entero.
+
+Entrada de ejemplo 0
+
+3
+
+Salida de ejemplo 0
+
+3
+
+Entrada de ejemplo 1
+
+za
+
+Salida de ejemplo 1
+
+Bad String
+
+Explicación
+
+El Caso de ejemplo 0 contiene un entero, así que no debería generar una excepción al intentar convertirlo a entero. Por lo tanto, imprimimos el entero.
+
+El Caso de ejemplo 1 no contiene ningún entero, así que un intento de convertirlo a entero generará una excepción. Por lo tanto, nuestro manejador de excepciones imprime Bad String.
+
+Soluciones
+
+Punto clave del reto: no se permite usar bucles ni condicionales (if) para validar manualmente si el string es un número — hay que usar directamente la conversión nativa del lenguaje envuelta en un bloque try/except (o try/catch), y dejar que sea la propia excepción la que determine si el string era válido o no.
