@@ -1,0 +1,33 @@
+Objetivo:
+
+Hoy trabajaremos con una Lista Enlazada.
+
+Se proporciona una clase Node en el editor. Un objeto Node tiene un campo de datos entero (data) y un puntero/referencia (next) que apunta a otro nodo (es decir, el siguiente nodo de la lista).
+
+Se declara la función insert. Esta función recibe dos parámetros:
+
+head: Un puntero que apunta al primer nodo de la lista enlazada.
+
+data: Un entero que debe agregarse al final (cola/tail) de la lista como un nuevo objeto Node.
+
+Tarea
+Completa la función insert para que cree un nuevo nodo (pasando data como argumento del constructor) e insértalo al final de la lista enlazada referenciada por head. Una vez agregado el nodo, devuelve la referencia al nodo head.
+
+Nota: Si la lista está vacía, el argumento head será nulo (null / None).
+
+Explicación de la Lógica
+Para insertar un nodo al final de una lista enlazada hay que considerar dos casos:
+
+Lista Vacía (head es nulo): El nuevo nodo que creamos se convierte automáticamente en el primer nodo de la lista, por lo que simplemente lo retornamos.
+
+Lista No Vacía:
+
+Creamos el nuevo nodo con el valor data.
+
+Recorremos la lista comenzando desde head usando una variable auxiliar (por ejemplo, current).
+
+Avanzamos en la lista mientras current.next no sea nulo.
+
+Al llegar al último nodo, asignamos current.next = nuevo_nodo.
+
+Retornamos la cabeza original (head).
