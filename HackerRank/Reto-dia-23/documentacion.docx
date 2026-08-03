@@ -1,0 +1,50 @@
+Objetivo
+: Hoy profundizaremos en los árboles de búsqueda binaria. ¡Consulta la pestaña de tutoriales para acceder a materiales didácticos y un video instructivo!
+
+Tarea
+A Un recorrido por niveles, también conocido como búsqueda en amplitud, visita cada nivel de los nodos de un árbol de izquierda a derecha, de arriba a abajo. Se le proporciona un puntero,, apuntando a la raíz de un árbol de búsqueda binaria. Complete la función levelOrder proporcionada en su editor para que imprima el recorrido por niveles del árbol de búsqueda binaria.
+
+Sugerencia: Una cola te resultará útil para completar este desafío.
+
+Descripción de la función
+
+Complete la función levelOrder en el editor a continuación.
+
+levelOrder tiene el siguiente parámetro:
+- Node pointer root : una referencia a la raíz del árbol
+
+Impresiones
+: Imprime los elementos de node.data como una línea de números enteros separados por espacios. No se espera ningún valor de retorno.
+
+Formato de entrada
+
+El código stub bloqueado en su editor lee las siguientes entradas y las ensambla en un BST:
+La primera línea contiene un entero,(el número de casos de prueba).
+ElLas líneas subsiguientes contienen cada una un número entero,, que denota el valor de un elemento que debe agregarse al BST.
+
+Restricciones
+
+
+
+Formato de salida
+
+Imprime elvalor de cada nodo en el recorrido por niveles del árbol como una sola línea deenteros separados por espacios.
+
+Entrada de ejemplo
+
+6
+3
+5
+4
+7
+2
+1
+Salida de ejemplo
+
+3 2 5 1 4 7 
+Explicación
+
+La entrada forma el siguiente árbol de búsqueda binaria:
+BST.png
+
+Recorremos cada nivel del árbol desde la raíz hacia abajo y procesamos los nodos de cada nivel de izquierda a derecha. El recorrido resultante en orden de niveles esy mostramos estos valores de datos como una sola línea de números enteros separados por espacios.

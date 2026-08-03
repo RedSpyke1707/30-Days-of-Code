@@ -1,0 +1,35 @@
+¡Bienvenido al Día 18! Hoy vamos a aprender sobre Pilas (Stacks) y Colas (Queues). ¡Consulta la pestaña [Tutorial](https://www.hackerrank.com/challenges/30-queues-stacks/tutorial) para materiales de aprendizaje y un video instructivo!
+
+Un palíndromo es una palabra, frase, número u otra secuencia de caracteres que se lee igual hacia adelante y hacia atrás. ¿Puedes determinar si una cadena dada, **s**, es un palíndromo?
+
+Para resolver este desafío, primero debemos tomar cada carácter de **s**, encolarlo (enqueue) en una cola, y también apilar (push) ese mismo carácter en una pila. Una vez hecho esto, debemos desencolar (dequeue) el primer carácter de la cola y desapilar (pop) el carácter superior de la pila, luego comparar ambos caracteres para ver si son iguales; mientras los caracteres coincidan, continuamos desencolando, desapilando y comparando cada carácter hasta que nuestros contenedores estén vacíos (si hay una discrepancia, significa que **s** no es un palíndromo).
+
+Escribe las siguientes declaraciones e implementaciones:
+
+1. Dos variables de instancia: una para tu **pila (stack)**, y otra para tu **cola (queue)**.
+2. Un método `void pushCharacter(char ch)` que apila un carácter en una pila.
+3. Un método `void enqueueCharacter(char ch)` que encola un carácter en la variable de instancia **queue**.
+4. Un método `char popCharacter()` que desapila y devuelve el carácter que está en el tope de la variable de instancia **stack**.
+5. Un método `char dequeueCharacter()` que desencola y devuelve el primer carácter de la variable de instancia **queue**.
+
+**Formato de entrada**
+No necesitas leer nada desde la entrada estándar (stdin). El código de plantilla bloqueado en tu editor lee una sola línea que contiene la cadena **s**. Luego llama a los métodos especificados anteriormente para pasar cada carácter a tus variables de instancia.
+
+**Restricciones**
+
+* **s** está compuesta únicamente por letras minúsculas del alfabeto inglés.
+
+**Formato de salida**
+No eres responsable de imprimir ninguna salida en stdout.
+Si tu código está escrito correctamente y **s** es un palíndromo, el código de plantilla bloqueado imprimirá un mensaje indicándolo; de lo contrario, imprimirá lo contrario.
+
+**Entrada de ejemplo**
+```
+racecar
+
+```
+
+**Salida de ejemplo**
+```
+The word, racecar, is a palindrome.
+```

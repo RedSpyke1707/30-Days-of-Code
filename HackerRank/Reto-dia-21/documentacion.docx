@@ -1,0 +1,18 @@
+Objetivo
+Hoy hablaremos de los genéricos; ten en cuenta que no todos los lenguajes admiten esta construcción , por lo que hay menos lenguajes disponibles para este desafío. ¡Consulta la pestaña Tutorial para acceder a materiales de aprendizaje y un video instructivo!
+
+Tarea:
+Escribe una única función genérica llamada printArray ; esta función debe recibir como parámetro un array de elementos genéricos (la excepción es C++, que acepta un vector ). La clase Solution, bloqueada en tu editor, prueba tu función.
+
+Nota: Debes usar genéricos para resolver este desafío. No escribas funciones sobrecargadas.
+
+Formato de entrada
+
+La clase Solution bloqueada en su editor pasará diferentes tipos de matrices a su función printArray .
+
+Restricciones
+
+Debes tener exactamentefunción llamada printArray .
+Formato de salida
+
+Tu función printArray debe imprimir cada elemento de su parámetro de matriz genérica en una nueva línea.

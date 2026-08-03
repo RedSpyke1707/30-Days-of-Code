@@ -1,0 +1,37 @@
+Objetivo
+: Hoy trabajaremos con expresiones regulares. ¡Consulta la pestaña Tutorial para acceder a materiales de aprendizaje y un video instructivo!
+
+Tarea
+Considere una tabla de base de datos, Emails , que tiene los atributos Nombre y Correo electrónico . Dadofilas de datos que simulan la tabla Emails , imprime una lista ordenada alfabéticamente de personas cuya dirección de correo electrónico termina en.
+
+Formato de entrada
+
+La primera línea contiene un número entero,, número total de filas en la tabla.
+Cada una de lasLas líneas siguientes contienenCadenas de caracteres separadas por espacios que indican el nombre y la dirección de correo electrónico de una persona, respectivamente.
+
+Restricciones
+
+Cada uno de los nombres de pila consta de letras minúsculas.solo.
+Cada una de las direcciones de correo electrónico consta de letras minúsculas.,ysolo.
+La longitud del nombre de pila no debe ser superior a 20 caracteres.
+La longitud del ID de correo electrónico no debe ser superior a 50 caracteres.
+Formato de salida
+
+Imprime una lista alfabética con los nombres de pila de todos los usuarios con una cuenta de Gmail. Cada nombre debe imprimirse en una línea nueva.
+
+Entrada de ejemplo
+
+6
+riya riya@gmail.com
+julia julia@julia.me
+julia sjulia@gmail.com
+julia julia@gmail.com
+samantha samantha@gmail.com
+tanya tanya@gmail.com
+Salida de ejemplo
+
+julia
+julia
+riya
+samantha
+tanya

@@ -1,0 +1,32 @@
+Este problema trata sobre pruebas unitarias.
+
+Su empresa necesita una función que cumpla con los siguientes requisitos:
+
+Para una matriz dada dePara números enteros, la función devuelve el índice del elemento con el valor mínimo en el array. Si hay más de un elemento con el valor mínimo, devuelve el más pequeño.
+Si se pasa un array vacío a la función, se produce una excepción. Un compañero ha escrito este método. La implementación en Python se muestra a continuación. En la plantilla de código se pueden encontrar implementaciones en otros lenguajes.
+def  índice_mínimo ( secuencia ): 
+    if  len ( secuencia )  ==  0 : 
+        raise  ValueError ( "No se puede obtener el índice de valor mínimo de una secuencia vacía" ) 
+    índice_mínimo  =  0 
+    for  i  in  range ( 1 ,  len ( secuencia )): 
+        if  a [ i ]  <  a [ índice_mínimo ]: 
+            índice_mínimo  =  i 
+    return  índice_mínimo
+Un compañero de trabajo ha preparado funciones que realizarán las pruebas y validarán los valores de retorno. Finalice la implementación declases para proporcionar datos y resultados esperados para las pruebas.
+
+Complete los siguientes métodos.
+
+En la clase TestDataEmptyArray:
+
+get_array()devuelve un array vacío
+En la clase TestDataUniqueValues:
+
+get_array()Devuelve una matriz de tamaño mínimo 2 con todos los elementos únicos.
+get_expected_result()Devuelve el índice del valor mínimo esperado para este array.
+En la clase TestDataExactlyTwoDifferentMinimums:
+
+get_array()Devuelve un array donde el valor mínimo se encuentra exactamente en el segundo índice.
+get_expected_result()devuelve el índice esperado
+Echa un vistazo a la plantilla de código para ver la implementación exacta de las funciones que tu compañero ya ha implementado.
+
+Nota: Los arreglos están indexados desde.

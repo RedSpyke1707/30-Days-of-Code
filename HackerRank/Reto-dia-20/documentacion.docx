@@ -1,0 +1,121 @@
+**Objetivo**
+Hoy vamos a hablar sobre un algoritmo de ordenamiento simple llamado Bubble Sort (Ordenamiento de burbuja). ¡Consulta la pestaña [Tutorial](https://www.hackerrank.com/challenges/30-sorting/topics) para materiales de aprendizaje y un video instructivo!
+
+Considera la siguiente versión de Bubble Sort:
+
+```
+for (int i = 0; i < n; i++) {
+    // Lleva el conteo del número de elementos intercambiados durante un solo recorrido del arreglo
+    int numberOfSwaps = 0;
+    
+    for (int j = 0; j < n - 1; j++) {
+        // Intercambia elementos adyacentes si están en orden decreciente
+        if (a[j] > a[j + 1]) {
+            swap(a[j], a[j + 1]);
+            numberOfSwaps++;
+        }
+    }
+    
+    // Si no se intercambió ningún elemento durante un recorrido, el arreglo está ordenado
+    if (numberOfSwaps == 0) {
+        break;
+    }
+}
+
+```
+
+**Tarea**
+Dado un arreglo, **a**, de tamaño **n** con elementos distintos, ordena el arreglo en orden ascendente utilizando el algoritmo Bubble Sort mostrado arriba. Una vez ordenado, imprime las siguientes líneas:
+
+1. `Array is sorted in numSwaps swaps.`
+donde **numSwaps** es el número de intercambios que se realizaron.
+2. `First Element: firstElement`
+donde **firstElement** es el primer elemento del arreglo ordenado.
+3. `Last Element: lastElement`
+donde **lastElement** es el último elemento del arreglo ordenado.
+
+**Pista:** Para completar este desafío, necesitarás agregar una variable que lleve un conteo acumulado de todos los intercambios que ocurren durante la ejecución.
+
+**Ejemplo**
+
+```
+arreglo original a: 4 3 1 2
+ronda 1  a: 3 1 2 4   intercambios en esta ronda: 3
+ronda 2  a: 1 2 3 4   intercambios en esta ronda: 2
+ronda 3  a: 1 2 3 4   intercambios en esta ronda: 0
+
+```
+
+En la primera ronda, el **4** se intercambia en cada una de las comparaciones, terminando en la última posición. En la segunda ronda, el **3** se intercambia en **2** de las comparaciones. Finalmente, en la tercera ronda, no se realizan intercambios, por lo que las iteraciones se detienen. La salida es la siguiente:
+
+```
+Array is sorted in 5 swaps.
+First Element: 1
+Last Element: 4
+
+```
+
+**Formato de entrada**
+La primera línea contiene un entero, **n**, el número de elementos en el arreglo **a**.
+La segunda línea contiene **n** enteros separados por espacios que describen **a**.
+
+**Restricciones**
+
+* 2 ≤ n ≤ 600
+* 1 ≤ a[i] ≤ 10^6, donde 0 ≤ i < n.
+
+**Formato de salida**
+Imprime las siguientes tres líneas de salida:
+
+1. `Array is sorted in numSwaps swaps.`
+donde **numSwaps** es el número de intercambios que se realizaron.
+2. `First Element: firstElement`
+donde **firstElement** es el primer elemento del arreglo ordenado.
+3. `Last Element: lastElement`
+donde **lastElement** es el último elemento del arreglo ordenado.
+
+**Entrada de ejemplo 0**
+
+```
+3
+1 2 3
+
+```
+
+**Salida de ejemplo 0**
+
+```
+Array is sorted in 0 swaps.
+First Element: 1
+Last Element: 3
+
+```
+
+**Explicación 0**
+El arreglo ya está ordenado, por lo que no se realizan intercambios y se imprimen las líneas de salida necesarias mostradas arriba.
+
+**Entrada de ejemplo 1**
+
+```
+3
+3 2 1
+
+```
+
+**Salida de ejemplo 1**
+
+```
+Array is sorted in 3 swaps.
+First Element: 1
+Last Element: 3
+
+```
+
+**Explicación 1**
+El arreglo no está ordenado, por lo que realizamos los siguientes intercambios. Cada línea muestra el arreglo después de intercambiar cada elemento individual.
+
+1. 3 2 1 → 2 3 1
+2. 2 3 1 → 2 1 3
+3. 2 1 3 → 1 2 3
+
+Después de 3 intercambios, el arreglo está ordenado.

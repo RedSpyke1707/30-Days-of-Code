@@ -1,0 +1,52 @@
+Objetivo:
+El desafío de hoy pone a prueba tu comprensión de las sentencias condicionales anidadas. Ya tienes los conocimientos necesarios para completar este desafío, pero consulta la pestaña Tutorial para ver un video sobre cómo realizar las pruebas.
+
+Tarea:
+¡Tu biblioteca local necesita tu ayuda! Conociendo las fechas de devolución previstas y reales de un libro, crea un programa que calcule la multa (si la hay). La estructura de tarifas es la siguiente:
+
+Si el libro se devuelve en la fecha de devolución prevista o antes, no se cobrará ninguna multa (es decir:.
+Si el libro se devuelve después del día de devolución previsto pero aún dentro del mismo mes y año calendario que la fecha de devolución prevista,.
+Si el libro se devuelve después del mes de devolución previsto pero aún dentro del mismo año calendario que la fecha de devolución prevista,.
+Si el libro se devuelve después del año calendario en el que se esperaba, hay una multa fija de.
+Ejemplo
+fecha devuelta
+fecha de vencimiento
+
+El libro se devuelve a tiempo, por lo que no se aplica ninguna multa.
+
+fecha devuelta
+fecha de vencimiento
+
+El libro se devuelve al año siguiente, por lo que la multa es de 10.000 unidades fijas.
+
+Formato de entrada
+
+La primera línea contieneenteros separados por espacios que denotan los respectivos,, yen la que el libro fue devuelto .
+La segunda línea contieneenteros separados por espacios que denotan los respectivos,, yen la que se esperaba que se devolviera el libro (fecha límite).
+
+Restricciones
+
+Formato de salida
+
+Imprime un único número entero que indique la multa de la biblioteca por el libro recibido como entrada.
+
+Entrada de ejemplo
+
+STDIN       Function
+-----       --------
+9 6 2015    day = 9, month = 6, year = 2015 (date returned)
+6 6 2015    day = 6, month = 6, year = 2015 (date due)
+Salida de ejemplo
+
+45
+Explicación
+
+Dadas las siguientes fechas de devolución:
+Devuelto:
+Pendiente:
+
+Porque, tiene menos de un año de retraso.
+Porque, tiene menos de un mes de retraso.
+Porque, fue devuelto tarde (pero aún dentro del mismo mes y año).
+
+Según la estructura de tarifas de la biblioteca, sabemos que nuestra multa será. Luego imprimimos el resultado decomo nuestro resultado.

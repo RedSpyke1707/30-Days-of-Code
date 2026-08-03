@@ -1,0 +1,38 @@
+**Objetivo**
+Hoy vamos a aprender sobre Interfaces. ¡Consulta la pestaña [Tutorial](https://www.hackerrank.com/challenges/30-interfaces/tutorial) para materiales de aprendizaje y un video instructivo!
+
+**Tarea**
+La interfaz `AdvancedArithmetic` y la declaración del método abstracto `divisorSum(n)` se proporcionan en el editor de abajo.
+
+Completa la implementación de la clase `Calculator`, la cual implementa la interfaz `AdvancedArithmetic`. La implementación del método `divisorSum(n)` debe devolver la suma de todos los divisores de **n**.
+
+**Ejemplo**
+Los divisores de **6** son **1, 2, 3 y 6**. Su suma es **12**.
+
+Los divisores de **12** son **1, 2, 3, 4, 6 y 12**, y su suma es **28**.
+
+**Formato de entrada**
+Una sola línea con un número entero, **n**.
+
+**Restricciones**
+
+* 1 ≤ n ≤ 1000
+
+**Formato de salida**
+No eres responsable de imprimir nada en stdout. El código de plantilla bloqueado en el editor de abajo llamará a tu código e imprimirá la salida necesaria.
+
+**Entrada de ejemplo**
+```
+6
+
+```
+
+**Salida de ejemplo**
+```
+I implemented: AdvancedArithmetic
+12
+
+```
+
+**Explicación**
+El número entero **6** es divisible exactamente por **1, 2, 3 y 6**. Nuestro método `divisorSum` debe devolver la suma de estos números, que es **12**. La clase `Solution` luego imprime "I implemented: AdvancedArithmetic" en la primera línea, seguido de la suma devuelta por `divisorSum` (que es **12**) en la segunda línea.

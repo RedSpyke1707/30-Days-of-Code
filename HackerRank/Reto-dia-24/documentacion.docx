@@ -1,0 +1,65 @@
+Objetivo:
+¡Consulta la pestaña de Tutoriales para acceder a materiales de aprendizaje y un vídeo instructivo!
+
+Tarea Se le proporciona
+una clase Nodo en el editor. Un objeto Nodo tiene un campo de datos entero,y un puntero a instancia de Node,, apuntando a otro nodo (es decir: el siguiente nodo en una lista).
+
+En su editor se declara una función removeDuplicates , que toma un puntero alNodo de una lista enlazada como parámetro. Complete la función removeDuplicates para que elimine los nodos duplicados de la lista y devuelva el encabezado de la lista actualizada.
+
+Nota: ElEl puntero puede ser nulo, lo que indica que la lista está vacía. Asegúrese de restablecer suUtilice un puntero al realizar eliminaciones para evitar romper la lista.
+
+Formato de entrada
+
+No es necesario leer ninguna entrada desde stdin. La siguiente entrada es manejada por el código stub bloqueado y pasada a la función removeDuplicates :
+La primera línea contiene un entero,, el número de nodos que se insertarán.
+ElLas líneas subsiguientes contienen cada una un número entero que describe elvalor de un nodo que se inserta al final de la lista.
+
+Restricciones
+
+Los elementos de datos del argumento de la lista enlazada siempre estarán en orden no decreciente.
+Formato de salida
+
+Tu función removeDuplicates debe devolver el primer elemento de la lista enlazada actualizada. El código auxiliar bloqueado en tu editor imprimirá la lista devuelta en la salida estándar.
+
+Entrada de ejemplo
+
+6
+1
+2
+2
+3
+3
+4
+Salida de ejemplo
+
+1 2 3 4 
+Explicación
+
+y nuestra lista no decreciente es. Los valoresyambos aparecen dos veces en la lista, por lo que eliminamos los dos nodos duplicados. Luego devolvemos nuestra lista actualizada (ascendente), que es.
+
+Idioma
+DO#
+Más
+1141516171819
+using System;
+using System.Collections.Generic;
+class Node
+{
+	public int data;
+	public Node next;
+    public Node(int d){
+        data=d;
+        next=null;
+    }
+		
+}
+class Solution {
+
+  public static Node removeDuplicates(Node head){
+    //Write your code here
+  }
+
+	public static  Node insert(Node head,int data)
+Línea: 14 Columna: 1
+
+Prueba con entrada personalizada

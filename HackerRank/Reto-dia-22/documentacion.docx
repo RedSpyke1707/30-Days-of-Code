@@ -1,0 +1,40 @@
+Objetivo
+: Hoy trabajaremos con árboles de búsqueda binaria (BST). ¡Consulta la pestaña de tutoriales para acceder a materiales didácticos y un video instructivo!
+
+Tarea
+La altura de un árbol de búsqueda binaria es el número de aristas entre la raíz del árbol y su hoja más alejada. Se le proporciona un puntero,, apuntando a la raíz de un árbol de búsqueda binaria. Complete la función getHeight proporcionada en su editor para que devuelva la altura del árbol de búsqueda binaria.
+
+Formato de entrada
+
+El código stub bloqueado en su editor lee las siguientes entradas y las ensambla en un árbol de búsqueda binaria:
+La primera línea contiene un número entero,, que denota el número de nodos en el árbol.
+Cada uno de losLas líneas subsiguientes contienen un número entero,, que denota el valor de un elemento que debe agregarse al BST.
+
+Formato de salida
+
+El código bloqueado en su editor imprimirá el número entero devuelto por su función getHeight que indica la altura del BST.
+
+Entrada de ejemplo
+
+7
+3
+5
+2
+1
+4
+6
+7
+Salida de ejemplo
+
+3
+Explicación
+
+La entrada forma el siguiente árbol de búsqueda binaria (BST):
+
+BST.png
+
+A continuación se muestra la ruta más larga desde la raíz hasta la hoja:
+
+RTL más largo.png
+
+Haynodos en esta ruta que están conectados porbordes, lo que significa que nuestros BSTPor lo tanto, imprimimoscomo nuestra respuesta.

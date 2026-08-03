@@ -1,0 +1,40 @@
+Objetivo
+Hoy aprenderemos sobre el tiempo de ejecución, también conocido como complejidad temporal. Consulta la pestaña Tutorial para acceder a materiales de aprendizaje y un video instructivo.
+
+Tarea
+Un número primo es un número natural mayor queque no tiene divisores positivos aparte dey sí mismo. Dado un número,, determinar e imprimir si eso.
+
+Nota: Si es posible, intente idear unaalgoritmo de primalidad, o vea qué tipo de optimizaciones se le ocurren para unalgoritmo. Asegúrate de leer el editorial después de enviar tu código.
+
+Formato de entrada
+
+La primera línea contiene un número entero,, el número de casos de prueba.
+Cada uno de losLas líneas subsiguientes contienen un número entero,, para ser sometido a pruebas de primacía.
+
+Restricciones
+
+Formato de salida
+
+Para cada caso de prueba, imprima siesoen una nueva línea.
+
+Entrada de ejemplo
+
+3
+12
+5
+7
+Salida de ejemplo
+
+Not prime
+Prime
+Prime
+Explicación
+
+Caso de prueba 0: .
+es divisible por números distintos dey sí mismo (es decir:,,,), así que imprimimosen una nueva línea.
+
+Caso de prueba 1: .
+es únicamente divisibley sí mismo, así que imprimimosen una nueva línea.
+
+Caso de prueba 2: .
+es únicamente divisibley sí mismo, así que imprimimosen una nueva línea.
