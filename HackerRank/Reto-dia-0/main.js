@@ -4,7 +4,7 @@ function processData(inputString) {
     
     // Write the second line of output that prints the contents of 'inputString' here.
     
-console.log(inputString)
+    console.log(inputString);
 }
 
 
