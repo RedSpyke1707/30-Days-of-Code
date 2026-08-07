@@ -17,7 +17,7 @@ class Solution {
         // Read and save an integer, double, and String to your variables.
          inputInt = Convert.ToInt32(Console.ReadLine());
          inputDouble = Convert.ToDouble(Console.ReadLine());
-         inputString = Console.ReadLine();
+         inputString = Console.ReadLine() ?? string.Empty;
 
         // Print the sum of both integer variables on a new line.
          Console.WriteLine(i + inputInt);
